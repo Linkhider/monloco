@@ -8,7 +8,6 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
 Vue.config.productionTip = false;
 
-// Дурачек через запятую пишуться опции к компонентам
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 

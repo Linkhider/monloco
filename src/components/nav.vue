@@ -1,13 +1,15 @@
 <template>
 <div class="nav">
     <div class="container mt-2 mb-2">
-        <div class="raw d-flex align-items-center">
-          <img src="../assets/svg/logo.svg" class="col-lg-2">
+        <div class="row d-flex align-items-center">
+          <a href="/"  class="col-lg-2"><img src="../assets/svg/logo.svg"></a>
           <div class="raw d-flex align-items-center ml-auto">
             <b-select v-model="selected" :options="options" class="col-sm brd-select"></b-select>
             <div class="brd ml-2">
+              <a href="/">
               <b-avatar class="brd-avatar"></b-avatar>
               <span class="ml-2 mr-2">Екатерина Юнусова</span>
+              </a>
             </div>
           </div>
         </div>
@@ -15,6 +17,12 @@
 </div>
 </template>
 <style>
+  a{
+    text-decoration: none;
+  }
+  span{
+    color: black;
+  }
   .nav{
   background: #FFFFFF;
   border: 1px solid #DBBFA7;

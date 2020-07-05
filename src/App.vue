@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="bg" id="app">
     <app-nav/>
     <router-view></router-view>
     <app-footer/>
@@ -17,3 +17,8 @@
     }
 
 </script>
+<style>
+  .bg{
+    background: #E5E5E5;
+  }
+</style>
