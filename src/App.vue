@@ -1,24 +1,19 @@
 <template>
   <div id="app">
-    <component :is="layout">
-
-      <router-view></router-view>
-    </component>
+    <app-nav/>
+    <router-view></router-view>
+    <app-footer/>
   </div>
 </template>
 
 <script>
-    import MainLayout from '@/layouts/MainLayout.vue'
-
+    import appFooter from "./components/footer";
+    import appNav from "./components/nav";
     export default {
-        computed: {
-            layout() {
-                return (this.$route.meta.layout || 'main') + '-layout'
-            }
-        },
-        components: {
-            MainLayout
-        }
+      components: {
+        appFooter,
+        appNav
+      }
     }
 
 </script>
