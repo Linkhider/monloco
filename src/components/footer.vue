@@ -1,6 +1,8 @@
 <template>
     <div>
-        footer
+       <footer>
+           <img src="../assets/svg/logo-white.svg" alt="">
+       </footer>
     </div>
 </template>
 
@@ -11,5 +13,7 @@
 </script>
 
 <style scoped>
-
+    footer{
+        background: #383838;
+    }
 </style>
