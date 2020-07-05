@@ -28,11 +28,11 @@
                    <div class="ml-auto ">
                        <button variant="outline-light" class="mt-2 mb-2">Контактная информация</button>
                        <br>
-                       <span class="d-flex justify-content-center">+7 (495) 123-45-67</span>
+                       <span class="d-flex justify-content-center mt-1">+7 (495) 123-45-67</span>
                    </div>
 
                </div>
-               <p class="d-flex justify-content-center">
+               <p class="d-flex justify-content-center mt-3">
                    © Название сайта 2020. Все права защищены.
                </p>
 
