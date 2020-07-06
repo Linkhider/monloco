@@ -10,9 +10,13 @@ export default new VueRouter({
         {
           path: '/',
           name: 'home',
-          meta: {layout: 'main'},
           component: () => import('@/views/home.vue')
-        }
+        },
+          {
+              path: '/coworkings',
+              name: 'coworkings',
+              component: () => import('@/views/coworkings.vue')
+          }
       ]
     }
 )
