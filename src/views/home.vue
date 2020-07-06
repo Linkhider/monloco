@@ -1,7 +1,7 @@
 <template>
     <div class="bg">
         <div class="container">
-            <div class="col-lg-3 back"><b-icon-chevron-left></b-icon-chevron-left><span>Выбор кворкинга</span></div>
+            <div class="col-lg-3 back"><b-icon-chevron-left></b-icon-chevron-left><a href="/coworkings"><span>Выбор кворкинга</span></a></div>
             <div class="row">
             <div class="col-lg-8 mb-3">
                 <div class="crd">
@@ -96,6 +96,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <div class="crd">
                     <p class="gray ml-3">Отзывы мастеров:</p>

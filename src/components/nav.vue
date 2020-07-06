@@ -3,7 +3,7 @@
     <div class="container mt-2 mb-2">
         <div class="row d-flex align-items-center">
           <a href="/"  class="col-lg-2"><img src="../assets/svg/logo.svg"></a>
-          <div class="raw d-flex align-items-center ml-auto">
+          <div class="row d-flex align-items-center ml-auto">
             <b-select v-model="selected" :options="options" class="col-sm brd-select"></b-select>
             <div class="brd ml-2">
               <a href="/">
