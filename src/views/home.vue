@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="crd">
-                    <div class="container">
+                    <div class="container pt-3">
                         <p class="title">Название коворкинга</p>
                         <p class="second-title">г. Москва, ул. Моховая, д. 13</p>
                         <p class="gray">Категория деятельности:</p>
@@ -42,54 +42,60 @@
                         <p class="gray mt-2">Тарифы:</p>
                         <div class="container">
                             <div class="row">
-                                <div class="card col-lg-6 mb-3">
-                                    <p class="card-title">Название коворкинга</p>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa debitis deleniti dolore dolorum ducimus eligendi esse et harum iste itaque minus, nihil omnis possimus quia recusandae repudiandae ut! Hic.</p>
-                                    <div class="row">
-                                        <div class="col-lg-5 mb-2">
-                                            <div class="mb-3">1 час - 200₽</div>
-                                            <div class="mb-3">1 час - 200₽</div>
-                                            <div class="mb-3">1 час - 200₽</div>
-                                        </div>
-                                        <div class="col-lg-7 mb-2">
-                                            <div class="">Абонемент 30 часов</div>
-                                            <div class="mb-2">1 месяц - 4800₽</div>
-                                            <div class="">Абонемент 60 часов</div>
-                                            <div class="mb-2">2 месяца - 8400₽</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card col-lg-6 mb-3">
-                                    <p class="card-title">Название коворкинга</p>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa debitis deleniti dolore dolorum ducimus eligendi esse et harum iste itaque minus, nihil omnis possimus quia recusandae repudiandae ut! Hic.</p>
-                                    <div class="row">
-                                        <div class="col-lg-5 mb-2">
-                                            <div class="mb-3">1 час - 200₽</div>
-                                            <div class="mb-3">1 час - 200₽</div>
-                                            <div class="mb-3">1 час - 200₽</div>
-                                        </div>
-                                        <div class="col-lg-7 mb-2">
-                                            <div class="">Абонемент 30 часов</div>
-                                            <div class="mb-2">1 месяц - 4800₽</div>
-                                            <div class="">Абонемент 60 часов</div>
-                                            <div class="mb-2">2 месяца - 8400₽</div>
+                                <div class="col-lg-6">
+                                    <div class="card pt-2 mb-3">
+                                        <p class="card-title">Название коворкинга</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa debitis deleniti dolore dolorum ducimus eligendi esse et harum iste itaque minus, nihil omnis possimus quia recusandae repudiandae ut! Hic.</p>
+                                        <div class="row">
+                                            <div class="col-lg-5 mb-2">
+                                                <div class="mb-3">1 час - 200₽</div>
+                                                <div class="mb-3">1 час - 200₽</div>
+                                                <div class="mb-3">1 час - 200₽</div>
+                                            </div>
+                                            <div class="col-lg-7 mb-2">
+                                                <div class="">Абонемент 30 часов</div>
+                                                <div class="mb-2">1 месяц - 4800₽</div>
+                                                <div class="">Абонемент 60 часов</div>
+                                                <div class="mb-2">2 месяца - 8400₽</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card col-lg-6 mb-3">
-                                    <p class="card-title">Название коворкинга</p>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa debitis deleniti dolore dolorum ducimus eligendi esse et harum iste itaque minus, nihil omnis possimus quia recusandae repudiandae ut! Hic.</p>
-                                    <div class="row">
-                                        <div class="col-lg-5 mb-2">
-                                            <div class="mb-3">1 час - 200₽</div>
-                                            <div class="mb-3">1 час - 200₽</div>
-                                            <div class="mb-3">1 час - 200₽</div>
+                                <div class="col-lg-6">
+                                    <div class="card pt-2 mb-3">
+                                        <p class="card-title">Название коворкинга</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa debitis deleniti dolore dolorum ducimus eligendi esse et harum iste itaque minus, nihil omnis possimus quia recusandae repudiandae ut! Hic.</p>
+                                        <div class="row">
+                                            <div class="col-lg-5 mb-2">
+                                                <div class="mb-3">1 час - 200₽</div>
+                                                <div class="mb-3">1 час - 200₽</div>
+                                                <div class="mb-3">1 час - 200₽</div>
+                                            </div>
+                                            <div class="col-lg-7 mb-2">
+                                                <div class="">Абонемент 30 часов</div>
+                                                <div class="mb-2">1 месяц - 4800₽</div>
+                                                <div class="">Абонемент 60 часов</div>
+                                                <div class="mb-2">2 месяца - 8400₽</div>
+                                            </div>
                                         </div>
-                                        <div class="col-lg-7 mb-2">
-                                            <div class="">Абонемент 30 часов</div>
-                                            <div class="mb-2">1 месяц - 4800₽</div>
-                                            <div class="">Абонемент 60 часов</div>
-                                            <div class="mb-2">2 месяца - 8400₽</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card pt-2 mb-3">
+                                        <p class="card-title">Название коворкинга</p>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa debitis deleniti dolore dolorum ducimus eligendi esse et harum iste itaque minus, nihil omnis possimus quia recusandae repudiandae ut! Hic.</p>
+                                        <div class="row">
+                                            <div class="col-lg-5 mb-2">
+                                                <div class="mb-3">1 час - 200₽</div>
+                                                <div class="mb-3">1 час - 200₽</div>
+                                                <div class="mb-3">1 час - 200₽</div>
+                                            </div>
+                                            <div class="col-lg-7 mb-2">
+                                                <div class="">Абонемент 30 часов</div>
+                                                <div class="mb-2">1 месяц - 4800₽</div>
+                                                <div class="">Абонемент 60 часов</div>
+                                                <div class="mb-2">2 месяца - 8400₽</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -98,13 +104,13 @@
                     </div>
 
                 </div>
-                <div class="crd">
-                    <p class="gray ml-3">Отзывы мастеров:</p>
-                    <div class="comm-card">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-auto">
-                                    <b-avatar class="brd-avatar ml-1"></b-avatar>
+                <div class="crd pb-1">
+                    <p class="gray ml-3 pt-3">Отзывы мастеров:</p>
+                    <div class="container">
+                        <div class="comm-card">
+                            <div class="row pt-3">
+                                <div class="col-lg-auto comm-avatar">
+                                    <b-avatar class="brd-avatar ml-2"></b-avatar>
                                 </div>
                                 <div class="col-lg-4">
                                    <p class="name">Екатерина Юнусова</p>
@@ -115,16 +121,16 @@
                                     <p class="card-text comm-rait d-flex align-items-center"><img src="@/assets/svg/star-comm.svg">8.86</p>
                                 </div>
                             </div>
-                            <div class="container mb-3">
+                            <div class="container pb-2">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam animi aspernatur blanditiis cumque cupiditate delectus, deleniti dignissimos harum labore magnam maxime molestiae necessitatibus nisi porro quos sequi vitae voluptatem?
                             </div>
                         </div>
                     </div>
-                    <div class="comm-card">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-auto">
-                                    <b-avatar class="brd-avatar ml-1"></b-avatar>
+                    <div class="container">
+                        <div class="comm-card">
+                            <div class="row pt-3">
+                                <div class="col-lg-auto comm-avatar">
+                                    <b-avatar class="brd-avatar ml-2"></b-avatar>
                                 </div>
                                 <div class="col-lg-4">
                                     <p class="name">Екатерина Юнусова</p>
@@ -136,16 +142,16 @@
 
                                 </div>
                             </div>
-                            <div class="container mb-3">
+                            <div class="container pb-2">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam animi aspernatur blanditiis cumque cupiditate delectus, deleniti dignissimos harum labore magnam maxime molestiae necessitatibus nisi porro quos sequi vitae voluptatem?
                             </div>
                         </div>
                     </div>
-                    <div class="comm-card">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-lg-auto">
-                                    <b-avatar class="brd-avatar ml-1"></b-avatar>
+                    <div class="container">
+                        <div class="comm-card">
+                            <div class="row pt-3">
+                                <div class="col-lg-auto comm-avatar">
+                                    <b-avatar class="brd-avatar ml-2"></b-avatar>
                                 </div>
                                 <div class="col-lg-4">
                                     <p class="name">Екатерина Юнусова</p>
@@ -157,7 +163,7 @@
 
                                 </div>
                             </div>
-                            <div class="container mb-3">
+                            <div class="container pb-2">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam animi aspernatur blanditiis cumque cupiditate delectus, deleniti dignissimos harum labore magnam maxime molestiae necessitatibus nisi porro quos sequi vitae voluptatem?
                             </div>
                         </div>
@@ -177,7 +183,7 @@
                     <div class="d-flex align-items-center">
                         <div>
                             <p class="mt-3 second-title">Рейтинг коворкинга</p>
-                            <p class="rait d-flex align-items-center"><img src="@/assets/svg/star.svg">8.86 <span class="rait-text ml-3">9 отзывов от мастеров</span></p>
+                            <p class="rait d-flex align-items-center"><img src="@/assets/svg/star.svg">8.86 <span class="rait-text ml-2">9 отзывов от мастеров</span></p>
                         </div>
 
                         <div class="d-flex justify-content-end align-items-center ml-auto">
@@ -187,9 +193,9 @@
                 </div>
 
                 <div class="crd txt col-lg-12">
-                    <p class="mt-2 second-title">г. Москва, ул. Моховая, д. 13</p>
-                    <div class=" container d-flex">
-                        <img src="@/assets/png/map.png" class="map mb-2">
+                    <p class="pt-2 second-title">г. Москва, ул. Моховая, д. 13</p>
+                    <div class=" container ">
+                        <img src="@/assets/png/map.png" class="map mb-4">
                     </div>
                 </div>
             </div>
@@ -230,8 +236,7 @@
         color: #383838;
     }
     .map{
-        width: 290px;
-        height: 228px;
+        width: inherit;
         border: 0.5px solid #E8F1F1;
         box-sizing: border-box;
         box-shadow: 0px 1px 10px rgba(135, 175, 185, 0.1);
@@ -249,7 +254,7 @@
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 22px;
         color: #383838;
     }
@@ -285,12 +290,17 @@
         line-height: 17px;
         color: #383838;
     }
+    .comm-avatar{
+        padding-left: 25px;
+        margin-right: -15px;
+    }
     .card{
         background: #FFFFFF;
         border: 0.5px solid #E8F1F1;
         box-sizing: border-box;
         box-shadow: 0px 0px 20px rgba(4, 94, 94, 0.05);
         border-radius: 10px;
+        padding: 15px;
     }
     .card-title{
         font-family: Montserrat;
@@ -304,7 +314,7 @@
         background: #FFFFFF;
         box-shadow: 0px 0px 20px rgba(4, 94, 94, 0.05);
         border-radius: 10px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
     .country{
         font-family: Montserrat;
@@ -334,6 +344,10 @@
     .back{
         margin-top: 15px;
         margin-bottom: -15px;
+        color: #000;
+    }
+    .name{
+        padding-top: 2px;
     }
     .comm-rait{
         margin-top: -15px;

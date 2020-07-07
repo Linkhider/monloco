@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="mt-2">
        <footer>
            <div class="d-flex justify-content-center">
                <img src="../assets/svg/logo-white.svg" class="mt-2" alt="">

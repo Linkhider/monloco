@@ -2,13 +2,13 @@
 <div class="nav">
     <div class="container mt-2 mb-2">
         <div class="row d-flex align-items-center">
-          <a href="/"  class="col-lg-2"><img src="../assets/svg/logo.svg"></a>
-          <div class="row d-flex align-items-center ml-auto">
-            <b-select v-model="selected" :options="options" class="col-sm brd-select"></b-select>
-            <div class="brd ml-2">
+          <a href="/"  class="col-lg-2"><img src="../assets/svg/logo-white.svg"></a>
+          <div class="row d-flex align-items-center col-lg-4 ml-auto">
+            <b-select v-model="selected" :options="options" class="ml-3 col-sm brd-select"><b-icon-arrow-up></b-icon-arrow-up></b-select>
+            <div class="brd ml-2 mr-3">
               <a href="/">
               <b-avatar class="brd-avatar"></b-avatar>
-              <span class="ml-2 mr-2">Екатерина Юнусова</span>
+              <span class="ml-2 mr-2 wht">Екатерина Юнусова</span>
               </a>
             </div>
           </div>
@@ -23,32 +23,48 @@
   span{
     color: black;
   }
+  .wht{
+    color: #fff;
+  }
   .nav{
-  background: #FFFFFF;
-  border: 1px solid #DBBFA7;
+  background: #383838;
+  border-bottom: 1px solid #fff;
   box-shadow: 0px 1px 10px rgba(219, 191, 167, 0.1);
   }
   .brd{
-    border: 2px solid #DBBFA7;
+    border-left: none;
+    border: 1px solid #fff;
     box-sizing: border-box;
     border-radius:25px 5px 5px 25px;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    color: #fff;
   }
-  .brd-avatar{
-    border: 2px solid #DBBFA7;
+  .brd-avatar {
+    border: 1px solid #fff;
+    border-left: none;
   }
   .brd-select{
-    border: 2px solid #DBBFA7;
+    border: 1px solid #fff;
+    background: #383838;
     border-radius: 5px;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 12px;
+    color: #FFFFFF;
+    outline: none;
+  }
+
+  .custom-select:focus {
+    border-color: #f9f9f9;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(41, 41, 41, 0.25);
+
   }
 </style>
 
