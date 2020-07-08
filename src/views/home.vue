@@ -186,7 +186,7 @@
                             <p class="rait d-flex align-items-center"><img src="@/assets/svg/star.svg">8.86 <span class="rait-text ml-2">9 отзывов от мастеров</span></p>
                         </div>
 
-                        <div class="d-flex justify-content-end align-items-center ml-auto">
+                        <div class="d-flex justify-content-end align-items-center ml-auto animation">
                             <img src="@/assets/svg/heart.svg" class="">
                         </div>
                     </div>

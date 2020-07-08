@@ -26,7 +26,7 @@
                        <a href="/">Меню</a><br/>
                    </div>
                    <div class="ml-auto ">
-                       <button variant="outline-light" class="mt-2 mb-2">Контактная информация</button>
+                       <button variant="outline-light" class="mt-2 mb-2 contact">Контактная информация</button>
                        <br>
                        <span class="d-flex justify-content-center mt-1">+7 (495) 123-45-67</span>
                    </div>
@@ -93,5 +93,13 @@
         font-size: 18px;
         line-height: 22px;
         color: #FFFFFF;
+    }
+    .contact:hover{
+        -moz-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: 0.7s;
     }
 </style>

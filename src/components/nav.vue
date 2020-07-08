@@ -2,7 +2,7 @@
 <div class="nav">
     <div class="container mt-2 mb-2">
         <div class="row d-flex align-items-center">
-          <a href="/"  class="col-lg-2"><img src="../assets/svg/logo-white.svg"></a>
+          <a href="/"  class="col-lg-2 animation"><img src="../assets/svg/logo-white.svg"></a>
           <div class="row d-flex align-items-center col-lg-4 ml-auto">
             <b-select v-model="selected" :options="options" class="ml-3 col-sm brd-select"><b-icon-arrow-up></b-icon-arrow-up></b-select>
             <div class="brd ml-2 mr-3">
@@ -22,6 +22,14 @@
   }
   span{
     color: black;
+  }
+  .animation:hover{
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: 1s;
   }
   .wht{
     color: #fff;
@@ -47,9 +55,9 @@
     border: 1px solid #fff;
     border-left: none;
   }
-  .brd-select{
+  .brd-select {
     border: 1px solid #fff;
-    background: #383838;
+    background: #383838 url("../assets/svg/select.svg") no-repeat scroll 90% 50%;
     border-radius: 5px;
     font-family: Montserrat;
     font-style: normal;

@@ -2,8 +2,8 @@
   <div class="bg">
     <div class="container">
 
-      <div class="row d-flex align-items-center justify-content-between">
-        <b-input-group class="search">
+      <div class="d-flex align-items-center justify-content-between">
+        <b-input-group class="search" placeholder="Enter something...">
           <template v-slot:append>
             <b-input-group-text class="brd-select"><b-icon-search></b-icon-search></b-input-group-text>
           </template>
@@ -11,20 +11,20 @@
         </b-input-group>
 
         <div class="filter">
-        <b-select v-model="selected" :options="options" class="brd-select font-filters">
+        <b-select v-model="selected" :options="options" class="brd-select font-filters drop">
           <b-select-option :value="null">Фильтры</b-select-option>
         </b-select>
         </div>
 
         <div class="distance">
-          <b-select v-model="selected" :options="options" class="brd-select font-filters">
+          <b-select v-model="selected" :options="options" class="brd-select font-filters wht-btn drop-blck">
             <b-select-option :value="null">Расстояние</b-select-option>
 
           </b-select>
         </div>
 
         <div class="price">
-          <b-select v-model="selected" :options="options" class="brd-select font-filters">
+          <b-select v-model="selected" :options="options" class="brd-select font-filters wht-btn drop-blck">
             <b-select-option :value="null">Цена</b-select-option>
 
           </b-select>
@@ -37,8 +37,10 @@
           <div class="card">
           <div class="container">
             <div class="row">
-              <div class="col-lg-6 col-12">
+              <div class="col-lg-6 col-12 icons">
               <img src="@/assets/png/preview.png">
+                <img src="@/assets/svg/star-img.svg" alt="" class="icon">
+                <img src="@/assets/svg/heart-photo.svg" alt="" class="icon2">
               </div>
               <div class="col-lg-6 col-12">
                <p class="title">Название коворкинга</p>
@@ -64,8 +66,10 @@
           <div class="card">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12 icons">
                   <img src="@/assets/png/preview.png">
+                  <img src="@/assets/svg/star-img.svg" alt="" class="icon">
+                  <img src="@/assets/svg/heart-photo.svg" alt="" class="icon2">
                 </div>
                 <div class="col-lg-6">
                   <p class="title">Название коворкинга</p>
@@ -91,8 +95,10 @@
           <div class="card">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12 icons">
                   <img src="@/assets/png/preview.png">
+                  <img src="@/assets/svg/star-img.svg" alt="" class="icon">
+                  <img src="@/assets/svg/heart-photo.svg" alt="" class="icon2">
                 </div>
                 <div class="col-lg-6">
                   <p class="title">Название коворкинга</p>
@@ -118,8 +124,10 @@
           <div class="card">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12 icons">
                   <img src="@/assets/png/preview.png">
+                  <img src="@/assets/svg/star-img.svg" alt="" class="icon">
+                  <img src="@/assets/svg/heart-photo.svg" alt="" class="icon2">
                 </div>
                 <div class="col-lg-6">
                   <p class="title">Название коворкинга</p>
@@ -145,8 +153,10 @@
           <div class="card">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12 icons">
                   <img src="@/assets/png/preview.png">
+                  <img src="@/assets/svg/star-img.svg" alt="" class="icon">
+                  <img src="@/assets/svg/heart-photo.svg" alt="" class="icon2">
                 </div>
                 <div class="col-lg-6">
                   <p class="title">Название коворкинга</p>
@@ -172,8 +182,10 @@
           <div class="card">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12 icons">
                   <img src="@/assets/png/preview.png">
+                  <img src="@/assets/svg/star-img.svg" alt="" class="icon">
+                  <img src="@/assets/svg/heart-photo.svg" alt="" class="icon2">
                 </div>
                 <div class="col-lg-6">
                   <p class="title">Название коворкинга</p>
@@ -199,8 +211,10 @@
           <div class="card">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-12 icons">
                   <img src="@/assets/png/preview.png">
+                  <img src="@/assets/svg/star-img.svg" alt="" class="icon">
+                  <img src="@/assets/svg/heart-photo.svg" alt="" class="icon2">
                 </div>
                 <div class="col-lg-6">
                   <p class="title">Название коворкинга</p>
@@ -255,6 +269,8 @@
     margin-bottom: 5px;
     background: #a0c0bf;
     border: none;
+    transition: 0.8s;
+
   }
   .btn:hover{
     background: #607676;
@@ -264,6 +280,22 @@
     margin-bottom: 10px;
     width: 255px;
     height: auto;
+    border-radius: 10px;
+  }
+  .icons{
+    position:relative;
+  }
+  .icon{
+    position: absolute;
+    left: -95px;
+    top: 7px;
+    height: 15px;
+  }
+  .icon2{
+    position: absolute;
+   right: -110px;
+    top: 7px;
+    height: 15px;
   }
   .title{
     margin-top: 8px;
@@ -318,5 +350,16 @@
   .font-filters{
     font-size: 12px!important;
     height: 38px;
+  }
+  .wht-btn{
+    background: #fff;
+    border: 1px solid #a0c0bf;
+    color: #a0c0bf;
+  }
+  .drop{
+    background: #a0c0bf url("../assets/svg/select.svg") no-repeat scroll 90% 50%;
+  }
+  .drop-blck{
+    background: #fff url("../assets/svg/select-blck.svg") no-repeat scroll 90% 50%;
   }
 </style>
