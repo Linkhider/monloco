@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-2">
+    <div class="mt-2 pb-0">
        <footer>
            <div class="d-flex justify-content-center">
                <img src="../assets/svg/logo-white.svg" class="mt-2" alt="">
@@ -101,5 +101,8 @@
         -ms-transform: scale(1.05);
         transform: scale(1.05);
         transition: 0.7s;
+    }
+    @media (max-width: 1080px) {
+        
     }
 </style>

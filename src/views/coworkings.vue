@@ -2,10 +2,10 @@
   <div class="bg">
     <div class="container">
 
-      <div class="d-flex align-items-center justify-content-between">
-        <b-input-group class="search" placeholder="Enter something...">
+      <div class="d-flex align-items-center">
+        <b-input-group class="search">
           <template v-slot:append>
-            <b-input-group-text class="brd-select"><b-icon-search></b-icon-search></b-input-group-text>
+            <b-input-group-text placeholder="Enter something..." class="brd-select"><b-icon-search></b-icon-search></b-input-group-text>
           </template>
           <b-form-input class="brd-select"></b-form-input>
         </b-input-group>
@@ -33,16 +33,19 @@
 
 
       <div class="row  d-flex justify-content-between">
-        <div class="col-lg-6">
+
+        <div class="col-lg-6 col-md-12">
           <div class="card">
           <div class="container">
             <div class="row">
-              <div class="col-lg-6 col-12 icons">
-              <img src="@/assets/png/preview.png">
-                <img src="@/assets/svg/star-img.svg" alt="" class="icon">
-                <img src="@/assets/svg/heart-photo.svg" alt="" class="icon2">
+              <div class="col-lg-6 col-md-12 icons">
+              <img src="@/assets/png/preview.png" class="grd">
+                <div class="row icon">
+                  <img src="@/assets/svg/star-img.svg" alt="" class="col-lg-2" style="height: 15px">
+                  <img src="@/assets/svg/heart-photo.svg" alt="" class="col-lg-2" style="height: 15px">
+                </div>
               </div>
-              <div class="col-lg-6 col-12">
+              <div class="col-lg-6 col-md-12">
                <p class="title">Название коворкинга</p>
                <p class="adress">г. Москва, ул. Моховая, д. 13</p>
                <p class="gray">Кабинеты</p>
@@ -278,22 +281,25 @@
   img{
     margin-top: 13px;
     margin-bottom: 10px;
-    width: 255px;
+    width: inherit;
     height: auto;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .icons{
     position:relative;
   }
   .icon{
     position: absolute;
-    left: -95px;
+    left: -35%;
     top: 7px;
     height: 15px;
   }
   .icon2{
     position: absolute;
-   right: -110px;
+   right: -40%;
     top: 7px;
     height: 15px;
   }
@@ -361,5 +367,25 @@
   }
   .drop-blck{
     background: #fff url("../assets/svg/select-blck.svg") no-repeat scroll 90% 50%;
+  }
+  @media (max-width: 1080px) {
+    .search{
+      width: 100vw;
+    }
+    .filter{
+      width: 100%;
+      padding: 17px;
+    }
+    .distance{
+      width: 100%;
+      padding-right: 17px;
+    }
+    .price{
+      width: 100%;
+    }
+    .brd-select{
+      visibility: visible;
+    }
+
   }
 </style>

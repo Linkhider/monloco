@@ -1,14 +1,16 @@
 <template>
 <div class="nav">
     <div class="container mt-2 mb-2">
-        <div class="row d-flex align-items-center">
-          <a href="/"  class="col-lg-2 animation"><img src="../assets/svg/logo-white.svg"></a>
-          <div class="row d-flex align-items-center col-lg-4 ml-auto">
+        <div class="row algn">
+          <div class="d-flex align-items-center">
+              <a href="/"  class="col-lg-2 animation"><img src="../assets/svg/logo-white.svg"></a>
+          </div>
+          <div class="row d-flex align-items-center col-lg-4 ml-auto avtr">
             <b-select v-model="selected" :options="options" class="ml-3 col-sm brd-select"><b-icon-arrow-up></b-icon-arrow-up></b-select>
-            <div class="brd ml-2 mr-3">
+            <div class="d-flex align-items-center brd ml-2 mr-3">
               <a href="/">
-              <b-avatar class="brd-avatar"></b-avatar>
-              <span class="ml-2 mr-2 wht">Екатерина Юнусова</span>
+                <b-avatar class="brd-avatar"></b-avatar>
+                <span class="ml-2 mr-2 wht">Екатерина Юнусова</span>
               </a>
             </div>
           </div>
@@ -35,9 +37,9 @@
     color: #fff;
   }
   .nav{
-  background: #383838;
-  border-bottom: 1px solid #fff;
-  box-shadow: 0px 1px 10px rgba(219, 191, 167, 0.1);
+    background: #383838;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0px 1px 10px rgba(219, 191, 167, 0.1);
   }
   .brd{
     border-left: none;
@@ -72,6 +74,26 @@
     border-color: #f9f9f9;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(41, 41, 41, 0.25);
+
+  }
+
+  @media ( max-width: 1080px) {
+    .brd-avatar {
+      margin-right: -110px;
+      margin-top: 10px
+    }
+    .algn{
+      flex-wrap: nowrap;
+    }
+    .brd{
+      visibility: hidden
+    }
+    .brd-avatar {
+     visibility: visible;
+    }
+    .brd-select {
+     visibility: hidden;
+    }
 
   }
 </style>
