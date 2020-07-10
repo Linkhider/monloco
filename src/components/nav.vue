@@ -55,7 +55,7 @@
   }
   .brd-avatar {
     border: 1px solid #fff;
-    border-left: none;
+    overflow: hidden;
   }
   .brd-select {
     border: 1px solid #fff;
@@ -68,6 +68,9 @@
     line-height: 12px;
     color: #FFFFFF;
     outline: none;
+  }
+  .avtr{
+    margin-right: 15px;
   }
 
   .custom-select:focus {

@@ -25,16 +25,16 @@
                        <a href="/">Меню</a><br/>
                        <a href="/">Меню</a><br/>
                    </div>
-                   <div class="ml-auto ">
+                   <div class="ml-auto footer">
                        <button variant="outline-light" class="mt-2 mb-2 contact">Контактная информация</button>
                        <br>
                        <span class="d-flex justify-content-center mt-1">+7 (495) 123-45-67</span>
                    </div>
 
                </div>
-               <p class="d-flex justify-content-center mt-3">
+               <div class="d-flex justify-content-center mt-3 pb-1 p">
                    © Название сайта 2020. Все права защищены.
-               </p>
+               </div>
 
            </div>
        </footer>
@@ -55,7 +55,7 @@
     hr{
         border: 1px solid rgba(255, 255, 255, 0.5);
     }
-    p{
+    .p{
         font-family: Montserrat;
         font-style: normal;
         font-weight: 300;
@@ -103,6 +103,8 @@
         transition: 0.7s;
     }
     @media (max-width: 1080px) {
-        
+        .footer{
+
+        }
     }
 </style>

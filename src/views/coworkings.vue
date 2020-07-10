@@ -293,13 +293,11 @@
   }
   .icon{
     position: absolute;
-    left: -35%;
     top: 7px;
     height: 15px;
   }
   .icon2{
     position: absolute;
-   right: -40%;
     top: 7px;
     height: 15px;
   }
