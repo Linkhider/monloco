@@ -72,12 +72,17 @@
   .avtr{
     margin-right: 15px;
   }
-
+  .page-link:hover {
+    z-index: 2;
+    color: #a0c0bf;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #a0c0bf;
+  }
   .custom-select:focus {
     border-color: #f9f9f9;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(41, 41, 41, 0.25);
-
   }
   .page-item.disabled .page-link {
     color: #6c757d;

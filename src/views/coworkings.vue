@@ -2,7 +2,7 @@
   <div class="bg">
     <div class="container">
 
-      <div class="d-flex align-items-center">
+      <div class="d-flex align-items-center row mr-1 ml-1 mt-3">
         <b-input-group class="search">
           <template v-slot:append>
             <b-input-group-text placeholder="Enter something..." class="brd-select"><b-icon-search></b-icon-search></b-input-group-text>
@@ -360,15 +360,22 @@
     }
     .search{
       visibility: visible;
+      width: 100%;
     }
     .filter{
       visibility: visible;
+      width: 34%;
+
     }
     .distance{
       visibility: visible;
+      width: 33%;
+
     }
     .price{
       visibility: visible;
+      width: 33%;
+
     }
   }
 </style>
