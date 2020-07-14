@@ -5,9 +5,9 @@
       <div class="d-flex align-items-center row mr-1 ml-1 mt-3">
         <b-input-group class="search">
           <template v-slot:append>
-            <b-input-group-text placeholder="Enter something..." class="brd-select"><b-icon-search></b-icon-search></b-input-group-text>
+            <b-input-group-text  class="brd-select"><b-icon-search></b-icon-search></b-input-group-text>
           </template>
-          <b-form-input class="brd-select"></b-form-input>
+          <b-form-input placeholder="ФИО мастера" class="brd-select"></b-form-input>
         </b-input-group>
 
         <div class="filter">
@@ -247,6 +247,9 @@
     background: #a0c0bf;
     border: none;
   }
+  .brd-select::placeholder{
+    color: #FFFFFF;
+  }
   .card{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -359,6 +362,7 @@
   .drop-blck{
     background: #fff url("../assets/svg/select-blck.svg") no-repeat scroll 90% 50%;
   }
+
   @media (max-width: 1080px) {
     .brd-select {
       visibility: visible;
