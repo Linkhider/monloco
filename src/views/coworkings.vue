@@ -24,7 +24,7 @@
         </div>
 
         <div class="price">
-          <b-select v-model="selected" :options="options" class="brd-select font-filters wht-btn drop-blck">
+          <b-select v-model="selected" :options="options" class="brd-select font-filters wht-btn drop-blck mr-2">
             <b-select-option :value="null">Цена</b-select-option>
 
           </b-select>
@@ -283,11 +283,16 @@
     position: absolute;
     top: 7px;
     height: 15px;
+    width: auto;
+    left: 25px;
   }
   .icon2{
     position: absolute;
     top: 7px;
     height: 15px;
+    width: auto;
+    right: 25px;
+
   }
   .title{
     margin-top: 8px;
@@ -365,7 +370,7 @@
     .filter{
       visibility: visible;
       width: 34%;
-
+      padding-left: 0px;
     }
     .distance{
       visibility: visible;
