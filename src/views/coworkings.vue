@@ -209,6 +209,22 @@
             </div>
           </div>
         </div>
+
+
+        <div class="d-flex row ml-auto mr-3">
+
+          <div class="mt-3 ">
+            <b-pagination
+                v-model="currentPage"
+                :total-rows="rows"
+                :per-page="perPage"
+                first-number
+                last-number
+            ></b-pagination>
+          </div>
+        </div>
+
+
       </div>
     </div>
   </div>
@@ -217,7 +233,10 @@
     export default {
         data() {
             return {
-                selected: null
+                selected: null,
+                rows: 5,
+                perPage: 1,
+                currentPage: 1
             }
         },
         name: "coworkings"
@@ -243,7 +262,6 @@
     background: #a0c0bf;
     border: none;
     transition: 0.8s;
-
   }
   .btn:hover{
     background: #607676;
@@ -265,13 +283,11 @@
     position: absolute;
     top: 7px;
     height: 15px;
-    right: 37%;
   }
   .icon2{
     position: absolute;
     top: 7px;
     height: 15px;
-    left: 37%;
   }
   .title{
     margin-top: 8px;
@@ -341,7 +357,6 @@
   @media (max-width: 1080px) {
     .brd-select {
       visibility: visible;
-
     }
     .search{
       visibility: visible;
@@ -355,6 +370,5 @@
     .price{
       visibility: visible;
     }
-
   }
 </style>

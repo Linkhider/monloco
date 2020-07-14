@@ -79,6 +79,35 @@
     box-shadow: 0 0 0 0.2rem rgba(41, 41, 41, 0.25);
 
   }
+  .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #a0c0bf;
+    color: #a0c0bf;
+
+  }
+  .page-item button {
+    border: 1px solid #a0c0bf;
+    border-radius: 5px!important;
+    margin: 5px;
+    color: #a0c0bf;
+  }
+  .page-item span {
+    border: 1px solid #a0c0bf;
+    border-radius: 5px!important;
+    margin: 5px;
+    color: #a0c0bf;
+
+  }
+  .page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #a0c0bf;
+    border-color: #a0c0bf;
+  }
+
 
   @media ( max-width: 1080px) {
     .brd-avatar {
