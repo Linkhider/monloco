@@ -34,37 +34,7 @@
 
       <div class="row  d-flex justify-content-between">
 
-        <div class="col-lg-6 col-md-12">
-          <div class="card">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 col-md-12 icons">
-              <img src="@/assets/png/preview.png" class="grd">
-                <div class="row icon">
-                  <img src="@/assets/svg/star-img.svg" alt="" class="col-lg-2" style="height: 15px">
-                  <img src="@/assets/svg/heart-photo.svg" alt="" class="col-lg-2" style="height: 15px">
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-12">
-               <p class="title">Название коворкинга</p>
-               <p class="adress">г. Москва, ул. Моховая, д. 13</p>
-               <p class="gray">Кабинеты</p>
-                <div class="row">
-                  <p class="cab">Визажная зона</p>
-                  <p class="cab">VIP-SPA</p>
-                </div>
-               <p class="gray">Время работы</p>
-                <div class="row">
-                  <p class="cab">10:00-12:00</p>
-                  <p class="cab">10:00-12:00</p>
-                  <p class="cab">10:00-12:00</p>
-                </div>
-                <b-button class="col-lg-12 btn">Подробнее</b-button>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
+
         <div class="col-lg-6">
           <div class="card">
             <div class="container">
@@ -295,11 +265,13 @@
     position: absolute;
     top: 7px;
     height: 15px;
+    right: 37%;
   }
   .icon2{
     position: absolute;
     top: 7px;
     height: 15px;
+    left: 37%;
   }
   .title{
     margin-top: 8px;
@@ -367,21 +339,20 @@
     background: #fff url("../assets/svg/select-blck.svg") no-repeat scroll 90% 50%;
   }
   @media (max-width: 1080px) {
+    .brd-select {
+      visibility: visible;
+
+    }
     .search{
-      width: 100vw;
+      visibility: visible;
     }
     .filter{
-      width: 100%;
-      padding: 17px;
+      visibility: visible;
     }
     .distance{
-      width: 100%;
-      padding-right: 17px;
+      visibility: visible;
     }
     .price{
-      width: 100%;
-    }
-    .brd-select{
       visibility: visible;
     }
 

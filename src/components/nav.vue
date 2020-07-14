@@ -3,11 +3,11 @@
     <div class="container mt-2 mb-2">
         <div class="row algn">
           <div class="d-flex align-items-center">
-              <a href="/"  class="col-lg-2 animation"><img src="../assets/svg/logo-white.svg"></a>
+              <a href="/"  class="col-lg-2 animation logo"><img src="../assets/svg/logo-white.svg"></a>
           </div>
           <div class="row d-flex align-items-center col-lg-4 ml-auto avtr">
-            <b-select v-model="selected" :options="options" class="ml-3 col-sm brd-select"><b-icon-arrow-up></b-icon-arrow-up></b-select>
-            <div class="d-flex align-items-center brd ml-2 mr-3">
+            <b-select v-model="selected" :options="options" class="mr-2 col-sm brd-select hide"><b-icon-arrow-up></b-icon-arrow-up></b-select>
+            <div class="d-flex align-items-center brd ml-auto mr-3">
               <a href="/">
                 <b-avatar class="brd-avatar"></b-avatar>
                 <span class="ml-2 mr-2 wht">Екатерина Юнусова</span>
@@ -82,22 +82,33 @@
 
   @media ( max-width: 1080px) {
     .brd-avatar {
-      margin-right: -110px;
+      margin-left: auto;
       margin-top: 10px
     }
     .algn{
       flex-wrap: nowrap;
     }
     .brd{
-      visibility: hidden
+      visibility: hidden;
+      display: flex;
     }
     .brd-avatar {
      visibility: visible;
+      display: flex;
     }
-    .brd-select {
+    .hide {
      visibility: hidden;
-    }
+      display: none;
+      position: absolute;
 
+    }
+    .avtr{
+      position: absolute;
+      display: none;
+    }
+    .logo{
+      width: 80%;
+    }
   }
 </style>
 

@@ -25,11 +25,11 @@
                        <a href="/">Меню</a><br/>
                        <a href="/">Меню</a><br/>
                    </div>
-                   <div class="ml-auto footer">
-                       <button variant="outline-light" class="mt-2 mb-2 contact">Контактная информация</button>
-                       <br>
-                       <span class="d-flex justify-content-center mt-1">+7 (495) 123-45-67</span>
-                   </div>
+                       <div class="footer">
+                           <button variant="outline-light" class="mt-2 mb-2 contact">Контактная информация</button>
+                           <br>
+                           <span class="d-flex justify-content-center mt-1">+7 (495) 123-45-67</span>
+                       </div>
 
                </div>
                <div class="d-flex justify-content-center mt-3 pb-1 p">
@@ -76,7 +76,6 @@
         box-sizing: border-box;
         border-radius: 10px;
         height: 40px;
-        width: 272px;
         background: inherit;
 
         font-family: Montserrat;
@@ -102,9 +101,21 @@
         transform: scale(1.05);
         transition: 0.7s;
     }
+    .footer{
+        margin-left: auto;
+    }
     @media (max-width: 1080px) {
+        .p{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 10px;
+            line-height: 17px;
+            color: #FFFFFF;
+        }
         .footer{
-
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 </style>
