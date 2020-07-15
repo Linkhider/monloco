@@ -295,7 +295,6 @@
     height: 15px;
     width: auto;
     right: 25px;
-
   }
   .title{
     margin-top: 8px;
@@ -363,7 +362,20 @@
     background: #fff url("../assets/svg/select-blck.svg") no-repeat scroll 90% 50%;
   }
 
+
   @media (max-width: 1080px) {
+    .btn{
+      margin-bottom: 10px;
+    }
+    .cab{
+      font-size: 10px;
+    }
+    .title{
+      font-size: 15px;
+    }
+    .adress{
+      font-size: 11px;
+    }
     .brd-select {
       visibility: visible;
     }

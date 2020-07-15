@@ -56,6 +56,8 @@
   .brd-avatar {
     border: 1px solid #fff;
     overflow: hidden;
+    border-left: none;
+
   }
   .brd-select {
     border: 1px solid #fff;
@@ -115,9 +117,14 @@
 
 
   @media ( max-width: 1080px) {
+    img{
+      width: 90%;
+    }
     .brd-avatar {
       margin-left: auto;
-      margin-top: 10px
+      margin-top: 0px;
+      border: 1px solid #fff;
+
     }
     .algn{
       flex-wrap: nowrap;
