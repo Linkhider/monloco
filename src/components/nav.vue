@@ -118,7 +118,7 @@
 
   @media ( max-width: 1080px) {
     img{
-      width: 90%;
+      width: 95%;
     }
     .brd-avatar {
       margin-left: auto;
@@ -141,11 +141,9 @@
      visibility: hidden;
       display: none;
       position: absolute;
-
     }
     .avtr{
       position: absolute;
-      display: none;
     }
     .logo{
       width: 80%;
