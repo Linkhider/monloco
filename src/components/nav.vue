@@ -117,9 +117,6 @@
 
 
   @media ( max-width: 1080px) {
-    img{
-      width: 95%;
-    }
     .brd-avatar {
       margin-left: auto;
       margin-top: 0px;
@@ -145,8 +142,8 @@
     .avtr{
       position: absolute;
     }
-    .logo{
-      width: 80%;
+    .logo img{
+      width: 70%;
     }
   }
 </style>
